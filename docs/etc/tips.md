@@ -1,3 +1,6 @@
+### docsify 관련 문서
+- [docsify 화면 설정](https://docsify.js.org/#/configuration)
+- [docsify 문서 작성](https://docsify.js.org/#/helpers)
 ### docsify 를 깔았는데도 not Found?
 - `npm i docsify-cli -g` 을 했는데도 되지 않을 경우 입니다.
 ```
