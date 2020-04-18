@@ -2,14 +2,14 @@
 
 ### 기존방식
 일반적인 변수의 기본적인 동작으로는 **객체의 할당과 접근**이 있습니다. <br>
-<img height="200" src='/img/reactivity-1.png'></img> <br>
+![](/img/reactivity-1.png)<br>
 하지만 이외에도 특정 변수의 동작, 객체의 특정 속성의 동작을 재정의하고 싶을 때는  `Object.defineProperty()` 을 사용하면 됩니다.
 
 ***사용법***
 ```javascript
     Object.defineProperty(대상객체,객체의 속성, {
     // 정의할 내용
-    })
+    });
 ```
 
 ### JS의 데이터와 DOM의 바인딩 데이터를 일치시킬 수는 없을까🤔
@@ -57,9 +57,10 @@ JS의 변수에 값이 변경될때 일일히 기존코드처럼 `div.innerHTML`
 </script>
 </body>
 ```
-<img height="200" src='/img/reactivity-2.gif'></img> <br>
+![](/img/reactivity-2.gif)<br>
 ***Object.defineProperty***
-- 객체의 동작을 재정의 하는 API입니다. 현재 예제에서는 viewModel에있는 str 속성에 대해 접근 동작과 할당동작을 재정의 하고 있습니다.<br>
+- 객체의 동작을 재정의 하는 API입니다. 현재 예제에서는 viewModel에있는 str 속성에 대해 접근 동작과 할당동작을 재정의 하고 있습니다. 
+
 **Vue.js 는 이러한 성질을 우리의 구현없이 제공해주는 프레임워크인데요, 이 성질을 Reactivity라고 합니다.**
 
 ### Reactivity 
