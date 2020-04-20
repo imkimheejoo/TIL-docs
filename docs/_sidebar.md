@@ -6,3 +6,4 @@
 * [Instance](/TIL/vue-instance.md)
 * [Component](/TIL/vue-component.md)
 * [Router](/TIL/vue-router.md)
+* [Computed](/TIL/vue-computed.md)
