@@ -21,6 +21,18 @@ http://localhost:8080/article/1
 - 8080 : port 번호
 - /article/1 : 요청한 데이터에 대한 정보
 
+### HTTP 특징
+- 비연결 지향(Connectionless)
+    - 클라이언트가 특정 동작을 수행하는 요청 서버에 보내고, 서버가 클라이언트에 요청에 대한 응답을 보내면 바로 연결을 끊음
+- 무상태(Stateless)
+    - 연결을 끊는 순간 클라이언트와 서버의 통신은 끝나며 상태 정보를 유지 X
+- 장점
+    - 불특정 다수를 대상으로 하는 서비스에 좋음.. 왜져..?
+    - 클라이언트와 서버가 계속 연결된 형태가 아니기 때문에 클라이언트와 서버 간의 최대 연결 수보다 훨씬 많은 요청과 응답을 처리 가능 ?????
+- 단점
+    - stateless 이기 때문에 이전 요청정보를 알 수 없
+    - 이전 요청에 대한 정보를 유지하기 위해서 Cookie 등장! (new!)
+
 ## HTTP 요청 메서드
 - 데이터에 특정 동작을 수행하고 싶을 때 사용하는 방법
 - GET : 기존 데이터를 요청(조회?)
@@ -42,6 +54,7 @@ http://localhost:8080/article/1
 
 ### 참고
 - [최고의 캡틴판교님 블로그](https://joshua1988.github.io/web-development/http-part1/)
+- [Heeee's blog](https://gmlwjd9405.github.io/2019/04/17/what-is-http-protocol.html)
 
 
     
