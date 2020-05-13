@@ -57,11 +57,12 @@ public void changeTeam(Team team) {
 
 ### 양방향 매핑시 주의점2  = 무한루프
 - 롬복이나 JSON 생성 라이브러리에서 문제 발생
-*** Example 1 ***
+
+***Example 1***
 
 엔티티를 컨트롤러에서 response로 보내버리면 JSON으로 바뀌면서 무한루프
 
-*** Example 2 ***
+***Example 2***
 ```java
 //Team
 public String toString() {
