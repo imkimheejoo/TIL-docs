@@ -9,7 +9,9 @@
 * [Computed](/TIL/vue-computed.md)
 
 - **🐻JPA**
-* [영속성컨텍스트](/TIL/JPA/jpa-persistenceContext.md)
+* [영속성컨텍스트](/TIL/JPA/jpa-persistence-context.md)
+* [엔티티매핑](/TIL/JPA/jpa-entity-mapping.md)
+
 
 - **🐯Network**
 * [OSI 7 Layer](/TIL/network/osi7-layer.md)
