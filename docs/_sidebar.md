@@ -11,7 +11,8 @@
 - **🐻JPA**
 * [영속성컨텍스트](/TIL/JPA/jpa-persistence-context.md)
 * [엔티티매핑](/TIL/JPA/jpa-entity-mapping.md)
-* [양방향](/TIL/JPA/jpa-relation-mapping.md)
+* [엔티티 연관관계](/TIL/JPA/jpa-relation-mapping.md)
+* [고급매핑](/TIL/JPA/jpa-relation-mapping2.md)
 
 
 - **🐯Network**
