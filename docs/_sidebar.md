@@ -13,7 +13,10 @@
 * [엔티티매핑](/TIL/JPA/jpa-entity-mapping.md)
 * [엔티티 연관관계](/TIL/JPA/jpa-relation-mapping.md)
 * [고급매핑](/TIL/JPA/jpa-relation-mapping2.md)
+* [프록시](/TIL/JPA/jpa-proxy.md)
+* [엔티티로딩/영속성전이](/TIL/JPA/jpa-entity-loading-cascade.md)
 
 
 - **🐯Network**
+* [http protocol](/TIL/network/http-protocol.md)
 * [OSI 7 Layer](/TIL/network/osi7-layer.md)
