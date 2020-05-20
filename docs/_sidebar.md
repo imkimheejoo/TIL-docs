@@ -17,6 +17,7 @@
 * [엔티티로딩/영속성전이](/TIL/JPA/jpa-entity-loading-cascade.md)
 * [값 타입](/TIL/JPA/jpa-type.md)
 * [쿼리언어](/TIL/JPA/jpa-query-language.md)
+* [JPQL](/TIL/JPA/jpa-jpql.md)
 
 
 - **🐯Network**
