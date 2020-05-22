@@ -34,13 +34,15 @@
         - 이 생성전략일 때만 특별하게 em.persist()를 하면 commit이 아직 되지 않았지만 insert 문을 실행장(쓰기지연이 안됨!)
             - ~~~select로 id를 가져온다~~~ => JDBC Driver 기능 중 insert 를 하면 id 를 반환해주는 기능을 제공
 
-        ***Before***
-        ![](/img/before-persist.png)
-            - persist 전에는 id를 설정하지 않았으니 null
+***Before***
 
-        ***After***
-        ![](/img/after-persist.png)
-            - persist 후 영속성 컨텍스트는 commit 호출 전에 insert 쿼리를 날리고 반환되는 id값을 영속성 컨텍스트의 1차캐시 key와 엔티티 id값에 저장한다.
+![](/img/before-persist.png)<br>
+- persist 전에는 id를 설정하지 않았으니 null
+
+***After***
+
+![](/img/after-persist.png)
+- persist 후 영속성 컨텍스트는 commit 호출 전에 insert 쿼리를 날리고 반환되는 id값을 영속성 컨텍스트의 1차캐시 key와 엔티티 id값에 저장한다.
     - **SEQUENCE**
         - Sequence Object 로 Id 생성을 관리
         - 테이블 마다 Sequence를 다르게 하고 싶을 경우 : @SequenceGenerator
